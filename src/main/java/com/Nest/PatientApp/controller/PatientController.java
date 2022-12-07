@@ -15,7 +15,7 @@ public class PatientController {
     }
 
     @CrossOrigin(origins = "*")
-    @GetMapping(path = "/view", consumes = "application/json", produces = "application/json")
+    @GetMapping(path = "/view")
     public String viewPatient(){
 
         return "patient view";
